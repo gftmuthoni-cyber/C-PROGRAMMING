@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+    float income;
+
+    printf("enter the age of the customer:");
+    scanf("%d" ,&age);
+    printf("enter the income of the customer (in ksh):");
+    scanf("%f" ,&income);
+    
+    if(age >= 21 && income>=21000) {
+        printf("congragulations you quaalify for a loan.\n");
+    } else { 
+        printf("unfortunately, you do not qualify for a loan");
+    }
+
+    return 0;
+}
