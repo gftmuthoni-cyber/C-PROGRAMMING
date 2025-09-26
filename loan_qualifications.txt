@@ -1,3 +1,8 @@
+/*
+name gift: muthoni
+reg no:CT101/G/26539/25
+Description:loan qualifications
+*/
 #include <stdio.h>
 
 int main() {
@@ -10,10 +15,7 @@ int main() {
     scanf("%f" ,&income);
     
     if(age >= 21 && income>=21000) {
-        printf("congragulations you quaalify for a loan.\n");
+        printf("congragulations you qualify for a loan.\n");
     } else { 
         printf("unfortunately, you do not qualify for a loan");
     }
-
-    return 0;
-}
