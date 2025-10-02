@@ -1,0 +1,19 @@
+/*
+Name:Gift muthoni
+Reg No:CT101 /G/26539/25
+Description:water bill calculation
+*/
+
+#include<stdio.h>
+ 
+ float units_consumed , KSH_per_unit;
+ 
+int main() {
+    printf("enter the units_consumed");
+    scanf("%f" ,&units_consumed);
+    printf("enter the KSH_per_unit");
+    scanf("%f" ,&KSH_per_unit);
+    
+    
+    return 0;
+}
